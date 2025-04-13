@@ -1,5 +1,6 @@
-﻿name = input("Whats your name? ")
+﻿name = input("Jak masz na imię?").title()
+secondName = input("Jak masz na nazwisko?").title()
 
-print(f"hejka {name}")
+print(f"Witaj {name} {secondName}!")
 
-#30 min
+#63 min
